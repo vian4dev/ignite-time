@@ -24,17 +24,17 @@
 # Ignite Time
 
 ## ✒️ Descrição
-(Em breve)
+_(Em breve)_
 
 ## 🚀 Tecnologias utilizadas
-(Em breve)
+_(Em breve)_
 
 ## 📷 Demostração
 Apresentação da tela do aplicativo.
-(Em breve)
+_(Em breve)_
 
 ## ⚙️ Instalação
-(Em breve)
+_(Em breve)_
 
 ## 📝 Licença
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
