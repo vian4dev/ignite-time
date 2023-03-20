@@ -1,4 +1,4 @@
-import { HistoryContainer, HistoryList } from './styles'
+import { HistoryContainer, HistoryList, Status } from './styles'
 
 export function History() {
     return (
@@ -16,46 +16,46 @@ export function History() {
                     </thead>
                     <tbody>
                         <tr>
-                            <td>Tarefa</td>
-                            <td>Duração</td>
-                            <td>Inicío</td>
-                            <td>Status</td>
+                            <td>Estudar</td>
+                            <td>20 minutos</td>
+                            <td>Há 2 meses</td>
+                            <td><Status statusColor="green">Concluído</Status></td>
                         </tr>
                         <tr>
-                            <td>Tarefa</td>
-                            <td>Duração</td>
-                            <td>Inicío</td>
-                            <td>Status</td>
+                            <td>Estudar</td>
+                            <td>20 minutos</td>
+                            <td>Há 2 meses</td>
+                            <td><Status statusColor="green">Concluído</Status></td>
                         </tr>
                         <tr>
-                            <td>Tarefa</td>
-                            <td>Duração</td>
-                            <td>Inicío</td>
-                            <td>Status</td>
+                            <td>Estudar</td>
+                            <td>20 minutos</td>
+                            <td>Há 2 meses</td>
+                            <td><Status statusColor="green">Concluído</Status></td>
                         </tr>
                         <tr>
-                            <td>Tarefa</td>
-                            <td>Duração</td>
-                            <td>Inicío</td>
-                            <td>Status</td>
+                            <td>Estudar</td>
+                            <td>20 minutos</td>
+                            <td>Há 2 meses</td>
+                            <td><Status statusColor="green">Concluído</Status></td>
                         </tr>
                         <tr>
-                            <td>Tarefa</td>
-                            <td>Duração</td>
-                            <td>Inicío</td>
-                            <td>Status</td>
+                            <td>Estudar</td>
+                            <td>20 minutos</td>
+                            <td>Há 2 meses</td>
+                            <td><Status statusColor="green">Concluído</Status></td>
                         </tr>
                         <tr>
-                            <td>Tarefa</td>
-                            <td>Duração</td>
-                            <td>Inicío</td>
-                            <td>Status</td>
+                            <td>Estudar</td>
+                            <td>20 minutos</td>
+                            <td>Há 2 meses</td>
+                            <td><Status statusColor="green">Concluído</Status></td>
                         </tr>
                         <tr>
-                            <td>Tarefa</td>
-                            <td>Duração</td>
-                            <td>Inicío</td>
-                            <td>Status</td>
+                            <td>Estudar</td>
+                            <td>20 minutos</td>
+                            <td>Há 2 meses</td>
+                            <td><Status statusColor="green">Concluído</Status></td>
                         </tr>
                     </tbody>
                 </table>
