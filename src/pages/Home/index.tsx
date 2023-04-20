@@ -1,11 +1,30 @@
-import { Play } from "phosphor-react";
-import { HomeContainer, FormContainer, CountdownContainer, Separator, StartCountdownButton, TaskInput, MinutesAmountInput } from "./styles";
+import { Play } from "phosphor-react"
+import { useForm } from 'react-hook-form'
+
+import { 
+    HomeContainer, 
+    FormContainer, 
+    CountdownContainer, 
+    Separator, 
+    StartCountdownButton, 
+    TaskInput, 
+    MinutesAmountInput 
+} from "./styles";
 
 export function Home() {
+    const { register, handleSubmit, watch } = useForm() 
+
+        function handleCreateNewCycle(data: any) {
+            console.log(data)
+        }
+
+        const task = watch('task')
+        const isSubmitDisabled = !task
+
+  
     return (
-        // <div>
             <HomeContainer>
-                <form action="">
+                <form onSubmit={handleSubmit(handleCreateNewCycle)}>
                     <FormContainer>
                         <div>
                             <label htmlFor="task">Vou trabalhar em </label>
@@ -14,6 +33,7 @@ export function Home() {
                               type="text" 
                               list="tasks-suggestions"
                               placeholder="Dê um nome para o seu projeto"
+                              {...register('task')}
                             />
 
                             <datalist id="tasks-suggestions">
@@ -30,6 +50,7 @@ export function Home() {
                               step={5}
                               min={5}
                               max={60}
+                              {...register('minutesAmount', { valueAsNumber: true})}
                             />
 
                         </div>
@@ -46,12 +67,15 @@ export function Home() {
                         <span>0</span>
                     </CountdownContainer>
 
-                    <StartCountdownButton disabled type="submit">
+                    <StartCountdownButton disabled={isSubmitDisabled} type="submit">
                         <Play size={24} />
                         Começar
                     </StartCountdownButton>
                 </form>
             </HomeContainer>
-        // </div>
     )
 }
+
+
+
+
