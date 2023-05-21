@@ -13,8 +13,6 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { useContext } from "react";
 import { CyclesContext } from "../../contexts/CycleContext";
 
-
-
 const newCycleFormValidationSchema = zod.object({
     task: zod.string().min(1, 'Infome a tarefa'),
     minutesAmount: zod
@@ -36,14 +34,19 @@ export function Home() {
         }
     })
 
-    const { handleSubmit, watch, /* reset */} = newCycleForm
+    const { handleSubmit, watch, reset} = newCycleForm
+
+    function handleCreateNewCycle(data: NewCycleFormData) {
+        createNewCycle(data)
+        reset()
+    }
     
     const task = watch('task')
     const isSubmitDisabled = !task
 
     return (
         <HomeContainer>
-            <form onSubmit={handleSubmit(createNewCycle)}>
+            <form onSubmit={handleSubmit(handleCreateNewCycle)}>
                 <FormProvider  {...newCycleForm}>
                     <NewCycleForm/>
                 </FormProvider>
