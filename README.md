@@ -36,7 +36,7 @@ Apresentação da tela do aplicativo.
 </div>
 
 ## 🔥 Instalação
-_Clone o repositório.
+Clone o repositório.
 ~~~
 git clone git@github.com:vian4dev/ignite-time.git
 ~~~
