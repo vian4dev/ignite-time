@@ -32,7 +32,7 @@ _(Em breve)_
 ## 📷 Demostração
 Apresentação da tela do aplicativo.
 <div align="center">
-  <img src="./.github/Home.png" alt="tasklist" border="0">
+  <img src="./.github/ignite-time.gif" alt="tasklist" border="0">
 </div>
 
 ## 🔥 Instalação
