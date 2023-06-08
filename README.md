@@ -50,7 +50,7 @@ npm install
 ~~~
 Execute a aplicação.
 ~~~
-yarn dev
+npm run dev
 ~~~
 
 ## 📝 Licença
