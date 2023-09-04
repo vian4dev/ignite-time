@@ -24,7 +24,7 @@
 # Ignite Time
 
 ## ✒️ Descrição
-Aplicação desenvolvida na aula de React da Trilha Ignite da Rocketseat, utilizando conceitos e ferramentas importantes do ecossistema React como Styled Components, MirageJS, Context API, hooks, Axios. O objetivo dessa aplicação e ser uma alternativa simples e eficaz para gerenciar finanças, permitindo o cadastro de entradas e saídas de valores organizando melhor as contas.
+Aplicação desenvolvida na aula de React da Trilha Ignite da Rocketseat, utilizando ferramentas, tais como Styled Components, Context API, useReducer, immer é o Zod. O objetivo dessa aplicação e ser um Timer para aplicar a técnica Pomodoro em diversos projetos pessoais.
 
 ## 🚀 Tecnologias utilizadas
 _(Em breve)_
