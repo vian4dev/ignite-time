@@ -34,7 +34,11 @@ Aplicação desenvolvida na aula de React da Trilha Ignite da Rocketseat, utiliz
   
   <img align="center" alt="img-typescript" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg">
 
-  <img align="center" alt="img-typescript" height="30" width="40" src="[https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg](https://raw.githubusercontent.com/colinhacks/zod/18115a8f128680b4526df58ce96deab7dce93b93/logo.svg)">
+  <img align="center" alt="img-typescript" height="30" width="40" src="https://raw.githubusercontent.com/styled-components/brand/master/styled-components.svg">
+
+  <img align="center" alt="img-typescript" height="30" width="40" src="https://raw.githubusercontent.com/immerjs/immer/main/images/immer-logo.svg">
+
+  <img align="center" alt="img-typescript" height="30" width="40" src="./.github/logo.svg"> 
 </div>
 
 ## 📷 Demostração
