@@ -27,7 +27,15 @@
 Aplicação desenvolvida na aula de React da Trilha Ignite da Rocketseat, utilizando ferramentas, tais como Styled Components, Context API, useReducer, immer é o Zod. O objetivo dessa aplicação e ser um Timer para aplicar a técnica Pomodoro em diversos projetos pessoais.
 
 ## 🚀 Tecnologias utilizadas
-_(Em breve)_
+<div style="display: inline_block"><br>
+  <img align="center" alt="img-html" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+	
+  <img align="center" alt="img-react" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
+  
+  <img align="center" alt="img-typescript" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg">
+
+  <img align="center" alt="img-typescript" height="30" width="40" src="[https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg](https://raw.githubusercontent.com/colinhacks/zod/18115a8f128680b4526df58ce96deab7dce93b93/logo.svg)">
+</div>
 
 ## 📷 Demostração
 Apresentação da tela do aplicativo.
