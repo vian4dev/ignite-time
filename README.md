@@ -18,7 +18,7 @@
 </div>
 
 <div align="center">
-  <img src="https://www.rocketseat.com.br/assets/logos/ignite-reduced.svg" width="150" height="150" alt="Ignite">
+  <img src="https://raw.githubusercontent.com/vian4dev/vian4dev/bfae0da7d97ab8f10a008d3fdea6f2e2181fa3ca/.github/rocketseat.svg" width="250" height="250" alt="Rocketseat">
 </div>
 
 # Ignite Time
